@@ -1,1 +1,7 @@
-console.log(1111)
+
+export default function (app: any) {
+  let cfg = app.config['pluginName']
+  return async (ctx: any, next: any) => {
+    await next()
+  }
+}

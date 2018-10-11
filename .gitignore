@@ -4,6 +4,10 @@ node_modules/
 .idea
 .vscode
 .svn
+shrinkwrap.yaml
+yarn.lock
+yarn-error.log
+
 # OS generated files #
 ######################
 .DS_Store
@@ -21,4 +25,3 @@ Thumbs.db
 
 # other #
 ######################
-shrinkwrap.yaml

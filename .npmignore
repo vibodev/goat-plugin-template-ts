@@ -10,6 +10,9 @@
 node_modules/
 .idea
 .vscode
+shrinkwrap.yaml
+yarn.lock
+yarn-error.log
 
 # OS generated files #
 ######################
@@ -22,12 +25,6 @@ node_modules/
 ehthumbs.db
 Thumbs.db
 
-# vscode #
-######################
-.vscode
-
 # other #
 ######################
-shrinkwrap.yaml
-yarn.lock
-yarn-error.log
+src
