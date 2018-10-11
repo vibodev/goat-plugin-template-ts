@@ -6,8 +6,6 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "tslint": "tslint -c tslint.json ./src/**/*.ts",
-    "install": "npm run build",
-    "postinstall": "rimraf src",
     "debug": "tsc -w",
     "build": "npm run clean && npm run tsc",
     "tsc": "tsc",
